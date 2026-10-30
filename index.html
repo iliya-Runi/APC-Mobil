@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOVA — digital-студия | Сайты, брендинг, разработка</title>
+<meta name="description" content="NOVA — digital-студия. Создаём сайты, брендинг и digital-продукты. Адаптивный дизайн, разработка, поддержка. Калькулятор стоимости онлайн.">
+<meta name="theme-color" content="#0a0a12">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="NOVA — digital-студия">
+<meta property="og:description" content="Создаём сайты, брендинг и digital-продукты. Рассчитайте стоимость за 30 секунд.">
+<meta property="og:url" content="https://nova-studio.example/">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%237c3aed'/><text x='50' y='74' font-size='64' text-anchor='middle' fill='white' font-family='system-ui' font-weight='900'>N</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>WEB DESIGN</span><i>✳</i>
+    <span>DEVELOPMENT</span><i>✳</i>
+    <span>DIGITAL EXPERIENCE</span><i>✳</i>
+    <span>BRANDING</span><i>✳</i>
+    <span>WEB DESIGN</span><i>✳</i>
+    <span>DEVELOPMENT</span><i>✳</i>
+    <span>DIGITAL EXPERIENCE</span><i>✳</i>
+    <span>BRANDING</span><i>✳</i>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#top" class="logo" aria-label="NOVA — на главную">
+      <span class="logo-mark">N</span>
+      <span class="logo-text">NOVA<span class="logo-star">✳</span></span>
+    </a>
+    <nav class="nav" aria-label="Основное меню">
+      <a href="#services" class="nav-link">Услуги</a>
+      <a href="#portfolio" class="nav-link">Работы</a>
+      <a href="#calculator" class="nav-link">Калькулятор</a>
+      <a href="#tariffs" class="nav-link">Тарифы</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link">Контакты</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary">Обсудить проект</a>
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Мобильное меню">
+  <a href="#services">Услуги</a>
+  <a href="#portfolio">Работы</a>
+  <a href="#calculator">Калькулятор</a>
+  <a href="#tariffs">Тарифы</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Контакты</a>
+  <a href="#contact" class="btn btn-primary">Обсудить проект</a>
+</nav>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-inner">
+    <span class="badge">
+      <span class="badge-dot"></span>
+      Принимаем проекты на Q1 2026
+    </span>
+    <h1>
+      Сайты, которые<br>
+      <em>действительно</em> <span class="grad">работают</span>
+    </h1>
+    <p>Digital-студия NOVA — дизайн, разработка и продвижение. От идеи до запуска за 4–8 недель, с поддержкой после.</p>
+    <div class="hero-actions">
+      <a href="#calculator" class="btn btn-primary btn-lg">Рассчитать стоимость</a>
+      <button type="button" class="btn btn-outline btn-lg" id="heroChatBtn">
+        <span>💬</span> Спросить AI-консультанта
+      </button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num" data-count="120" data-suffix="+">0</div>
+        <div class="stat-label">Проектов запущено</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="7" data-suffix=" лет">0</div>
+        <div class="stat-label">На рынке digital</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="98" data-suffix="%">0</div>
+        <div class="stat-label">Клиентов возвращаются</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="section-tag">01 / Услуги</span>
+      <h2>Полный цикл <em>digital-услуг</em></h2>
+      <p>Закрываем все задачи: от логотипа до аналитики. Или подключаемся на конкретном этапе.</p>
+    </div>
+    <div class="services-grid">
+      <article class="service-card fade-up">
+        <div class="service-icon">🎨</div>
+        <h3>Веб-дизайн</h3>
+        <p>Проектируем интерфейсы, которые легко читать и удобно использовать. От лендингов до сложных SaaS-платформ.</p>
+        <div class="service-tags">
+          <span class="tag">UI/UX</span><span class="tag">Прототипы</span><span class="tag">Дизайн-система</span>
+        </div>
+      </article>
+      <article class="service-card fade-up">
+        <div class="service-icon">⚡</div>
+        <h3>Разработка сайтов</h3>
+        <p>Frontend и backend. Адаптив, скорость, доступность. WordPress, Tilda, React, Next.js — под задачу и бюджет.</p>
+        <div class="service-tags">
+          <span class="tag">Frontend</span><span class="tag">React</span><span class="tag">CMS</span>
+        </div>
+      </article>
+      <article class="service-card fade-up">
+        <div class="service-icon">🏷️</div>
+        <h3>Брендинг</h3>
+        <p>Логотип, фирменный стиль, гайдлайн. Всё, чтобы бренд узнавали в соцсетях, на упаковке и в поиске.</p>
+        <div class="service-tags">
+          <span class="tag">Логотип</span><span class="tag">Айдентика</span><span class="tag">Брендбук</span>
+        </div>
+      </article>
+      <article class="service-card fade-up">
+        <div class="service-icon">📈</div>
+        <h3>SEO и продвижение</h3>
+        <p>Техническая оптимизация, контент-стратегия, ссылки. Выводим в топ по коммерческим запросам.</p>
+        <div class="service-tags">
+          <span class="tag">SEO</span><span class="tag">Контекст</span><span class="tag">Аналитика</span>
+        </div>
+      </article>
+      <article class="service-card fade-up">
+        <div class="service-icon">🛒</div>
+        <h3>Электронная коммерция</h3>
+        <p>Интернет-магазины, маркетплейсы, оплата и доставка. Связка с 1С, МойСклад, CRM.</p>
+        <div class="service-tags">
+          <span class="tag">E-commerce</span><span class="tag">1С</span><span class="tag">CRM</span>
+        </div>
+      </article>
+      <article class="service-card fade-up">
+        <div class="service-icon">🛠️</div>
+        <h3>Поддержка и развитие</h3>
+        <p>Обновления, доработки, мониторинг, резервные копии. Реагируем на инциденты за 30 минут.</p>
+        <div class="service-tags">
+          <span class="tag">SLA</span><span class="tag">Мониторинг</span><span class="tag">Доработки</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="section-tag">02 / Процесс</span>
+      <h2>Как мы <em>работаем</em></h2>
+      <p>Прозрачный процесс без сюрпризов. Вы всегда знаете, что происходит и на каком этапе проект.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step fade-up">
+        <div class="process-num">01</div>
+        <h3>Бриф</h3>
+        <p>Обсуждаем задачу, аудиторию, сроки и бюджет. Фиксируем цели и метрики успеха.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="process-num">02</div>
+        <h3>Прототип</h3>
+        <p>Собираем структуру, карту экранов и кликабельный прототип. Согласовываем до дизайна.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="process-num">03</div>
+        <h3>Дизайн и код</h3>
+        <p>Рисуем макеты и верстаем. Показываем прогресс каждую неделю — с комментариями и правками.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="process-num">04</div>
+        <h3>Запуск</h3>
+        <p>Тестируем на устройствах, переносим на прод, подключаем аналитику. Остаёмся на поддержке.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section class="section" id="portfolio">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="section-tag">03 / Работы</span>
+      <h2>Избранные <em>проекты</em></h2>
+      <p>Демонстрационные кейсы — показывают подход к дизайну и коду. Полное портфолио — по запросу.</p>
+    </div>
+
+    <div class="filter-row fade-up" role="group" aria-label="Фильтр проектов">
+      <button class="filter-btn is-active" data-filter="all" aria-pressed="true">Все <span>04</span></button>
+      <button class="filter-btn" data-filter="brand" aria-pressed="false">Брендинг <span>01</span></button>
+      <button class="filter-btn" data-filter="web" aria-pressed="false">Веб-дизайн <span>02</span></button>
+      <button class="filter-btn" data-filter="shop" aria-pressed="false">E-commerce <span>01</span></button>
+    </div>
+
+    <div class="portfolio-grid">
+      <article class="case fade-up" data-category="web" style="--case-grad: linear-gradient(135deg, #7c3aed, #ec4899);">
+        <div class="case-cover"><span class="case-mockup">Aurora</span></div>
+        <div class="case-body">
+          <h3>Aurora — финтех-платформа</h3>
+          <p class="meta">Лендинг · 2025</p>
+          <div class="case-tags">
+            <span class="tag">React</span><span class="tag">Анимации</span><span class="tag">Dashboard</span>
+          </div>
+        </div>
+      </article>
+      <article class="case fade-up" data-category="shop" style="--case-grad: linear-gradient(135deg, #06b6d4, #3b82f6);">
+        <div class="case-cover"><span class="case-mockup">Bloom</span></div>
+        <div class="case-body">
+          <h3>Bloom — онлайн-магазин растений</h3>
+          <p class="meta">E-commerce · 2025</p>
+          <div class="case-tags">
+            <span class="tag">Shopify</span><span class="tag">Дизайн</span><span class="tag">1С</span>
+          </div>
+        </div>
+      </article>
+      <article class="case fade-up" data-category="brand" style="--case-grad: linear-gradient(135deg, #f59e0b, #ef4444);">
+        <div class="case-cover"><span class="case-mockup">Forge</span></div>
+        <div class="case-body">
+          <h3>Forge — студия архитектуры</h3>
+          <p class="meta">Брендинг + сайт · 2024</p>
+          <div class="case-tags">
+            <span class="tag">Айдентика</span><span class="tag">Webflow</span><span class="tag">Галерея</span>
+          </div>
+        </div>
+      </article>
+      <article class="case fade-up" data-category="web" style="--case-grad: linear-gradient(135deg, #22c55e, #06b6d4);">
+        <div class="case-cover"><span class="case-mockup">Spectra</span></div>
+        <div class="case-body">
+          <h3>Spectra — SaaS-дашборд</h3>
+          <p class="meta">Веб-приложение · 2025</p>
+          <div class="case-tags">
+            <span class="tag">Dashboard</span><span class="tag">UX</span><span class="tag">React</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CALCULATOR ============ -->
+<section class="section calc-section" id="calculator">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="section-tag">04 / Калькулятор</span>
+      <h2>Рассчитайте <em>стоимость</em></h2>
+      <p>Ориентировочная цена проекта за 30 секунд. Точная стоимость — после брифа.</p>
+    </div>
+    <div class="calc-wrap">
+      <div class="calc-form fade-up">
+        <div class="calc-group">
+          <div class="calc-group-label">Тип проекта</div>
+          <div class="calc-options">
+            <div class="calc-opt"><input type="radio" name="type" id="t1" value="landing" checked><label for="t1">Лендинг</label></div>
+            <div class="calc-opt"><input type="radio" name="type" id="t2" value="corporate"><label for="t2">Корпоративный сайт</label></div>
+            <div class="calc-opt"><input type="radio" name="type" id="t3" value="shop"><label for="t3">Интернет-магазин</label></div>
+            <div class="calc-opt"><input type="radio" name="type" id="t4" value="webapp"><label for="t4">Веб-приложение</label></div>
+          </div>
+        </div>
+        <div class="calc-group">
+          <div class="calc-group-label">Объём <small>(количество экранов)</small></div>
+          <div class="calc-options">
+            <div class="calc-opt"><input type="radio" name="pages" id="p1" value="small" checked><label for="p1">до 5</label></div>
+            <div class="calc-opt"><input type="radio" name="pages" id="p2" value="medium"><label for="p2">6–15</label></div>
+            <div class="calc-opt"><input type="radio" name="pages" id="p3" value="large"><label for="p3">15+</label></div>
+          </div>
+        </div>
+        <div class="calc-group">
+          <div class="calc-group-label">Дизайн</div>
+          <div class="calc-options">
+            <div class="calc-opt"><input type="radio" name="design" id="d1" value="template" checked><label for="d1">На шаблоне</label></div>
+            <div class="calc-opt"><input type="radio" name="design" id="d2" value="custom"><label for="d2">Кастомный</label></div>
+            <div class="calc-opt"><input type="radio" name="design" id="d3" value="premium"><label for="d3">Премиум</label></div>
+          </div>
+        </div>
+        <div class="calc-group">
+          <div class="calc-group-label">Сроки</div>
+          <div class="calc-options">
+            <div class="calc-opt"><input type="radio" name="speed" id="s1" value="normal" checked><label for="s1">Стандарт (4–6 нед.)</label></div>
+            <div class="calc-opt"><input type="radio" name="speed" id="s2" value="fast"><label for="s2">Ускоренно (2–3 нед.)</label></div>
+            <div class="calc-opt"><input type="radio" name="speed" id="s3" value="urgent"><label for="s3">Срочно (1 нед.)</label></div>
+          </div>
+        </div>
+        <div class="calc-group">
+          <div class="calc-group-label">Дополнительно</div>
+          <div class="calc-options">
+            <div class="calc-opt"><input type="checkbox" name="extra" id="e1" value="seo"><label for="e1">SEO-оптимизация</label></div>
+            <div class="calc-opt"><input type="checkbox" name="extra" id="e2" value="analytics"><label for="e2">Аналитика</label></div>
+            <div class="calc-opt"><input type="checkbox" name="extra" id="e3" value="copy"><label for="e3">Копирайтинг</label></div>
+            <div class="calc-opt"><input type="checkbox" name="extra" id="e4" value="support"><label for="e4">Поддержка 3 мес.</label></div>
+          </div>
+        </div>
+      </div>
+      <aside class="calc-result fade-up">
+        <div class="calc-result-label">Примерная стоимость</div>
+        <div class="calc-total" id="calcTotal">от 35 000 ₽</div>
+        <div class="calc-sub" id="calcSub">Лендинг · Шаблон · Стандарт</div>
+        <div class="calc-detail" id="calcDetail"></div>
+        <a href="#contact" class="btn btn-primary btn-lg">Обсудить проект</a>
+        <p class="calc-note">Это оценка. Финальная смета — после брифа и согласования ТЗ.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TARIFFS ============ -->
+<section class="section" id="tariffs">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="section-tag">05 / Тарифы</span>
+      <h2>Выберите <em>пакет</em></h2>
+      <p>Три готовых решения. Или соберите своё через калькулятор выше.</p>
+    </div>
+    <div class="tariffs-grid">
+      <article class="tariff fade-up">
+        <div class="tariff-head">
+          <h3>Старт</h3>
+          <div class="tariff-price">15 000 <span>₽</span></div>
+          <p class="tariff-note">Быстрый запуск</p>
+        </div>
+        <ul class="tariff-list">
+          <li>Лендинг до 5 экранов</li>
+          <li>Адаптив под все устройства</li>
+          <li>Готовая форма заявки</li>
+          <li>Базовая SEO-настройка</li>
+          <li>Срок: 5–7 дней</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Выбрать</a>
+      </article>
+      <article class="tariff tariff-featured fade-up">
+        <span class="tariff-badge">Популярный</span>
+        <div class="tariff-head">
+          <h3>Стандарт</h3>
+          <div class="tariff-price">25 000 <span>₽</span></div>
+          <p class="tariff-note">Оптимальный выбор</p>
+        </div>
+        <ul class="tariff-list">
+          <li>Всё из «Старт»</li>
+          <li>Интерактивный калькулятор</li>
+          <li>Анимации при прокрутке</li>
+          <li>Open Graph + sitemap</li>
+          <li>Поддержка 1 месяц</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Выбрать</a>
+      </article>
+      <article class="tariff fade-up">
+        <div class="tariff-head">
+          <h3>Премиум</h3>
+          <div class="tariff-price">40 000 <span>₽</span></div>
+          <p class="tariff-note">Максимум качества</p>
+        </div>
+        <ul class="tariff-list">
+          <li>Всё из «Стандарт»</li>
+          <li>Кастомный дизайн</li>
+          <li>3D-визуалы и графика</li>
+          <li>AI-консультант на сайте</li>
+          <li>Поддержка 3 месяца</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Выбрать</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="section-tag">06 / Отзывы</span>
+      <h2>Что говорят <em>клиенты</em></h2>
+      <p>Демонстрационные отзывы — для иллюстрации формата. Реальные появятся после запуска.</p>
+    </div>
+    <div class="reviews-grid">
+      <article class="review fade-up">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">«Сделали за 5 дней, всё работает с первого дня. Отдельный плюс — калькулятор: клиенты сами считают цену и приходят с готовым решением.»</p>
+        <div class="review-author">
+          <div class="review-avatar" style="--av-grad: linear-gradient(135deg, #06b6d4, #3b82f6);">М</div>
+          <div>
+            <strong>Мария</strong>
+            <span>Bloom, e-commerce</span>
+          </div>
+        </div>
+      </article>
+      <article class="review fade-up">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">«Понравился подход: сначала прототип, потом дизайн. Никаких сюрпризов по срокам и бюджету. Код чистый, разобраться с правками получилось за вечер.»</p>
+        <div class="review-author">
+          <div class="review-avatar" style="--av-grad: linear-gradient(135deg, #f59e0b, #ef4444);">Д</div>
+          <div>
+            <strong>Дмитрий</strong>
+            <span>Forge, архитектура</span>
+          </div>
+        </div>
+      </article>
+      <article class="review fade-up">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">«Адаптив идеальный — проверял на трёх телефонах и планшете. Форма отправляется в Telegram, ничего не сломалось. Рекомендую.»</p>
+        <div class="review-author">
+          <div class="review-avatar" style="--av-grad: linear-gradient(135deg, #7c3aed, #ec4899);">А</div>
+          <div>
+            <strong>Анна</strong>
+            <span>Aurora, финтех</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="section-tag">07 / FAQ</span>
+      <h2>Частые <em>вопросы</em></h2>
+      <p>Коротко о том, что чаще всего спрашивают. Если ответа нет — напишите в чат.</p>
+    </div>
+    <div class="faq-list fade-up">
+      <details class="faq-item">
+        <summary>Что входит в стоимость проекта? <span>+</span></summary>
+        <p>В базовый пакет: адаптивная вёрстка, форма заявки, SEO-настройка (мета-теги, sitemap.xml, robots.txt), передача исходников и инструкция по правкам. Калькулятор, анимации и интеграции — в пакетах «Стандарт» и «Премиум».</p>
+      </details>
+      <details class="faq-item">
+        <summary>Сколько времени занимает разработка? <span>+</span></summary>
+        <p>Лендинг — 5–7 дней. Корпоративный сайт — 2–3 недели. Интернет-магазин — 3–6 недель. Сроки зависят от объёма и скорости согласования. Срочные проекты беру с наценкой 25–50%.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Что если понадобятся правки? <span>+</span></summary>
+        <p>После сдачи — 2 недели бесплатных правок (баги, мелкие доработки в рамках согласованного ТЗ). Дальше — поддержка по подписке или отдельные задачи по часам.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Работаете по договору? <span>+</span></summary>
+        <p>Да. Заключаем договор с фиксированной сметой и сроками. Предоплата 50%, остаток — после сдачи проекта. Все правки в рамках ТЗ — без доплат.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Есть ли гарантия? <span>+</span></summary>
+        <p>Гарантия на код и вёрстку — 12 месяцев. Если что-то перестанет работать не по вашей вине, исправлю бесплатно. На сторонние сервисы и хостинг гарантия не распространяется.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Это демо-сайт? <span>+</span></summary>
+        <p>Да. NOVA — вымышленный бренд, созданный специально для портфолио на Kwork. Все проекты и отзывы — демонстрационные. Сайт показывает уровень дизайна, вёрстки и JavaScript.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-info fade-up">
+        <h2>Расскажите <em>о проекте</em></h2>
+        <p>Заполните форму или напишите напрямую. Отвечу в течение 2 рабочих часов в будни.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="icon">✉️</span>
+            <div><strong>Почта</strong><span>hello@nova-studio.example</span></div>
+          </li>
+          <li>
+            <span class="icon">💬</span>
+            <div><strong>Telegram</strong><span>@nova_studio</span></div>
+          </li>
+          <li>
+            <span class="icon">📍</span>
+            <div><strong>Офис</strong><span>Москва, ул. Примерная, 10</span></div>
+          </li>
+        </ul>
+      </div>
+      <form class="contact-form fade-up" id="contactForm" novalidate>
+        <div class="form-field">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" placeholder="Как к вам обращаться?" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email или Telegram</label>
+          <input type="text" id="email" name="email" placeholder="you@example.com или @username" required>
+        </div>
+        <div class="form-field">
+          <label for="message">Задача</label>
+          <textarea id="message" name="message" placeholder="Коротко о проекте: что делаем, для кого, к какому сроку" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">Отправить заявку</button>
+        <p class="form-note" id="formNote">
+          Нажимая кнопку, вы соглашаетесь с
+          <a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a>.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a href="#top" class="logo">
+        <span class="logo-mark">N</span>
+        <span class="logo-text">NOVA<span class="logo-star">✳</span></span>
+      </a>
+      <p>© 2026 NOVA — digital-студия</p>
+    </div>
+    <p class="footer-note">
+      Демонстрационный сайт для портфолио на Kwork. Не является действующей коммерческой студией.
+    </p>
+  </div>
+</footer>
+
+<!-- ============ AI-КОНСУЛЬТАНТ ============ -->
+<button class="chat-toggle" id="chatToggle" type="button" aria-label="Открыть AI-консультанта">
+  <span class="chat-toggle-icon">💬</span>
+  <span class="chat-toggle-label">Спросить AI</span>
+  <span class="chat-toggle-dot" aria-hidden="true"></span>
+</button>
+
+<aside class="chat-panel" id="chatPanel" aria-label="AI-консультант">
+  <div class="chat-header">
+    <div class="chat-header-avatar">✦</div>
+    <div class="chat-header-info">
+      <strong>Nova AI</strong>
+      <span>Онлайн · отвечает сразу</span>
+    </div>
+    <button class="chat-close" id="chatClose" type="button" aria-label="Закрыть чат">×</button>
+  </div>
+  <div class="chat-log" id="chatLog" aria-live="polite"></div>
+  <div class="chat-chips" id="chatChips"></div>
+  <form class="chat-form" id="chatForm">
+    <input type="text" id="chatInput" placeholder="Спросите о ценах, сроках, услугах…" autocomplete="off" maxlength="200">
+    <button type="submit" aria-label="Отправить">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></svg>
+    </button>
+  </form>
+</aside>
+
+<!-- ============ НАВЕРХ ============ -->
+<button class="to-top" id="toTop" type="button" aria-label="Наверх">↑</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
